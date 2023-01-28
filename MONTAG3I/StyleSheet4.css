@@ -1,0 +1,165 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-image: url('img/111111111111111111111111111111111111111111111111.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+
+.loginbox {
+    position: absolute;
+    top: 145%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    width: 1100px;
+    height: 1300px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    margin-left: 280px;
+    background: rgba(0,0,0,0.5);
+}
+
+.user {
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    top: 110px;
+    left: 520px;
+    position: absolute;
+    background-image: url('img/00.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.user_1 {
+    width: 113px;
+    height: 138px;
+    overflow: hidden;
+    top: 547px;
+    left: 350px;
+    position: absolute;
+}
+
+.user_2 {
+    width: 113px;
+    height: 138px;
+    overflow: hidden;
+    top: 547px;
+    left: 750px;
+    position: absolute;
+}
+
+.text {
+    text-align: center;
+}
+
+h2 {
+    padding: 0;
+    margin: 0 0 0 9px;
+    text-align: center;
+    color: rgb(255, 217, 9);
+}
+
+lblusername, lblpassword {
+    font-weight: bold;
+    color: #FFFF00;
+    background-repeat: inherit;
+}
+
+.txtusername, .txtpassword, {
+    border: none;
+    border-bottom: 3px solid #fff;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+
+
+.btnsubmit {
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(255,9,9);
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+
+    .btnsubmit:hover {
+        background-color: rgb(255, 217, 9);
+    }
+
+.btnsubmit1 {
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(255,9,9);
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+
+    .btnsubmit1:hover {
+        background-color: rgb(255,217,9);
+    }
+
+.btnsubmit2 {
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(255,9,9);
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+
+    .btnsubmit2:hover {
+        background-color: rgb(255, 217, 9);
+    }
+
+.btnsubmit3 {
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    outline: none;
+    height: 40px;
+    font-size: medium;
+    color: #dfa974;
+    background-color: rgb(153, 153, 153);
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: 700;
+}
+
+    .btnsubmit3:hover {
+        background-color: rgb(145, 145, 145);
+    }
+
+.btnsubmit4 {
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(255,9,9);
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+
+    .btnsubmit4:hover {
+        background-color: rgb(200, 137, 59);
+    }
